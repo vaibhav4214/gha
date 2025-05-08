@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: checkout code
       uses: actions/checkout@v3
-    - name: use Node version
+    - name: Use Node version
       uses: actions/setup-node@v3
       with:
           node-version: 20   
