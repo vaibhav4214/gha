@@ -3,7 +3,7 @@ name: first github code
 on:
   push:
     branches:
-      -gh-pages
+      - main
 
 jobs:
   my_build:
