@@ -4,3 +4,14 @@ on:
   push:
     branches:
       -gh-pages
+
+jobs:
+  my_build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: checkout code
+      uses: action/checkout@v3
+    - name: use Node version
+      uses: action/setup-node@v3
+      with:
+          node-version: 20   
